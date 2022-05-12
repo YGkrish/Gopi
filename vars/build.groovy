@@ -1,6 +1,6 @@
 def call(body) {
 def pipelineparams= [:]
-body.resolveStragey = Clouser.DELEGATE_FIRST
+body.resolveStragey = Closure.DELEGATE_FIRST
 body.delegate = pipelineparams
 body()
 pipeline {
